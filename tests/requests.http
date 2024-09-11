@@ -1,0 +1,27 @@
+#Test
+
+POST http://localhost:8000/questions/similar-questions/
+Content-Type: application/json
+
+
+{
+  "question": "um movel e atirado verticalmente para cima a partir do solo , com velocidade de 72km/h. determine: a)as funções horarias do  movimento;b)o tempo de subida;c)a altura maxima atingida: d) em t=3 s,a altura e o sentido do movinto; e)o instante e a velocidade quando o movel atinge o solo. OBSERVAÇÃO: adote g=10m/s ao quadrado ."
+}
+
+
+###
+POST http://localhost:8000/questions/add-new-question/
+Content-Type: application/json
+
+
+{
+  "question": "um movel e atirado verticalmente para cima a partir do solo , com velocidade de 72km/h. determine: a)as funções horarias do  movimento;b)o tempo de subida;c)a altura maxima atingida: d) em t=3 s,a altura e o sentido do movinto; e)o instante e a velocidade quando o movel atinge o solo. OBSERVAÇÃO: adote g=10m/s ao quadrado ."
+}
+
+
+
+
+
+
+
+
